@@ -105,6 +105,33 @@ export default function Home() {
             <div class="col">
               <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Photoshop</span>
             </div>
+            <div class="col">
+              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> APIs</span>
+            </div>
+            <div class="col">
+              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Premiere Pro</span>
+            </div>
+            <div class="col">
+              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Excel</span>
+            </div>
+            <div class="col">
+              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Mailchimp</span>
+            </div>
+            <div class="col">
+              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Postman</span>
+            </div>
+            <div class="col">
+              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Google Analytics</span>
+            </div>
+            <div class="col">
+              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Bootstrap</span>
+            </div>
+            <div class="col">
+              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Material UI</span>
+            </div>
+            <div class="col">
+              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Tailwind</span>
+            </div>
           </div>
         </div>
       </div>
