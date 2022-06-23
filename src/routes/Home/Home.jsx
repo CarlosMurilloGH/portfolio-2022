@@ -7,7 +7,7 @@ import Studio from "../../media/720studio.png";
 export default function Home() {
   return (
     <div className='HomeContainer'>
-      <div className='HeroColorContainer bg-black py-5'>
+      <div className='HeroColorContainer py-5'>
         <div className="HeroContainer container d-flex py-5">
           <div className='HeroInfo pt-5'>
             <span className='text-primary fs-4 fw-bold'>Hey there!, I'm</span>
@@ -36,116 +36,70 @@ export default function Home() {
         </div>
       </div>
       
-      <div className='SkillContainer py-5'>
+      <div className='ContactContainer py-5'>
         <div className="container">
-          <h2 className='display-5 fw-bolder'>Skills</h2>
+          <h2 className='display-5 fw-bolder text-white'>Skills</h2>
         </div>
-        <div class="container py-5">
-          <div class="row row-cols-5">
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> React</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> React Native</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Wordpress</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> PHP</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> MongoDB</span>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col text-white">
+              <h2>Frontend</h2>
+              <p>HTML, CSS, JS</p>
+              <p>Reactjs</p>
+              <p>React-Native</p>
+              <p>Bootstrap</p>
+              <p>Material UI</p>
+              <p>Tailwind</p>
+              <p>Styled components</p>
             </div>
 
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Express</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> NodeJs</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> HTML 5</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> CSS 3</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> JavaScript</span>
+            <div class="col text-white">              
+              <h2>Backend</h2>
+              <p>PHP</p>
+              <p>Nodejs</p>
+              <p>Firebase</p>
+              <p>Express</p>
             </div>
 
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Firebase</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Plesk</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> CPanel</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Netlify</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Heroku</span>
+            <div class="col text-white">
+              <h2>Platforms</h2>
+              <p>Wordpress</p>
+              <p>Plesk</p>
+              <p>Cpanel</p>
+              <p>Netlify</p>
+              <p>Heroku</p>
+              <p>MongoDB</p>
+              <p>Google Analytics</p>
+              <p>Maikchimp</p>
+              <p>Github</p>
             </div>
 
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> SEO</span>
+            <div class="col text-white">
+              <h2>Tools</h2>
+              <p>Figma</p>
+              <p>Premiere Pro</p>
+              <p>After Effects</p>
+              <p>Google Analytics</p>
+              <p>Postman</p>
+              <p>Plesk</p>
             </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Figma</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Github</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> After Effects</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Photoshop</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> APIs</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Premiere Pro</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Excel</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Mailchimp</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Postman</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Google Analytics</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Bootstrap</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Material UI</span>
-            </div>
-            <div class="col">
-              <span className="badgecontainer badge bg-dark py-3 px-4 m-1 fs-5"><i className="bi bi-github"></i> Tailwind</span>
-            </div>
+
           </div>
         </div>
+
       </div>
 
-      <div className="ProjectsContainer">
+      <div className="ProjectsContainer py-5">
         <div className="container">
-          <h2 className='display-5 fw-bolder'>Projects</h2>
+          <h2 className='display-5 fw-bolder text-white'>Projects</h2>
         </div>
 
         <div className="container py-5">
           <div class="row row-cols-3 gy-4">
 
           <div class="col">
-              <div className="card" >
+              <div className="card cardcontainer text-white" >
                 <img className="card-img-top" src={Inbokzer} alt="Card cap"/>
                 <div className="card-body">
                   <div className="cardInfo d-flex justify-content-between">
@@ -289,11 +243,7 @@ export default function Home() {
 
       </div>
 
-      <div className='ContactContainer'>
-        <div className="container">
-          <h2 className='display-5 fw-bolder'>Get in touch</h2>
-        </div>
-      </div>
+
     </div>
   )
 }
