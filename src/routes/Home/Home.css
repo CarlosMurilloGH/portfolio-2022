@@ -2,10 +2,18 @@
     background-color: #242629;
 }
 
+.HeroForm{
+    background-color: #16161A;
+}
+
 .SkillContainer{
     background-color: #242629;
 }
 
 .cardcontainer{
     background-color: #16161A;
+}
+
+.cardIcons a{
+    color:white;
 }

@@ -3,6 +3,8 @@ import "./Home.css";
 
 import Inbokzer from "../../media/inbokzer.png";
 import Studio from "../../media/720studio.png";
+import Linktree from "../../media/linktreeclone.png";
+
 
 export default function Home() {
   return (
@@ -16,7 +18,7 @@ export default function Home() {
             < span className='display-2 fw-bolder text-white'>Full Stack developer</span>
             </h1>
           </div>
-          <div className='HeroForm mx-auto justify-content-center shadow-sm p-3 mb-5 bg-white rounded px-5 py-4'>
+          <div className='HeroForm mx-auto justify-content-center shadow-sm p-3 mb-5 rounded px-5 py-4 text-white'>
             <form>
               <p className='fs-4 fw-bold'>Get in touch</p>
               <div className="form-group">
@@ -31,12 +33,13 @@ export default function Home() {
                 <label>Message</label>
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Message'></textarea>
               </div>
+              <button type='submit' className='btn btn-primary'>Send</button>
             </form>
           </div>
         </div>
       </div>
       
-      <div className='ContactContainer py-5'>
+      <div className='SkillsContainer py-5'>
         <div className="container">
           <h2 className='display-5 fw-bolder text-white'>Skills</h2>
         </div>
@@ -107,12 +110,13 @@ export default function Home() {
                       <p>Inbokzer</p>
                     </div>
                     <div className='cardIcons d-flex'>
-                      <i className="bi bi-github"></i>
-                      <i className="bi bi-github"></i>
+                      <a href="https://demo-inbokzer.netlify.app" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right me-2"></i></a>
+                      <a href="https://github.com/CarlosMurilloGH/alphacarrito" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
                     </div>
                   </div>
                   <div className='cardStack d-flex border-bottom'>
-                    <p className='badge bg-primary'>React</p>
+                    <p className='badge bg-primary me-2'>React</p>
+                    <p className='badge bg-primary me-2'>CSS3</p>
                     <p className='badge bg-primary'>Firebase</p>
                   </div>
                   <div className='cardInfo'>
@@ -123,100 +127,7 @@ export default function Home() {
             </div>
 
             <div class="col">
-              <div className="card" >
-                <img className="card-img-top" src="..." alt="Card cap"/>
-                <div className="card-body">
-                  <div className="cardInfo d-flex justify-content-between">
-                    <div className='cardTitle'>
-                      <p>Inbokzer</p>
-                    </div>
-                    <div className='cardIcons d-flex'>
-                      <i className="bi bi-github"></i>
-                      <i className="bi bi-github"></i>
-                    </div>
-                  </div>
-                  <div className='cardStack d-flex border-bottom'>
-                    <p className='badge bg-primary'>React</p>
-                    <p className='badge bg-primary'>Firebase</p>
-                  </div>
-                  <div className='cardInfo'>
-                    <p>Ecommerce platform for small business using WhatsApp API</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div className="card" >
-                <img className="card-img-top" src="..." alt="Card cap"/>
-                <div className="card-body">
-                  <div className="cardInfo d-flex justify-content-between">
-                    <div className='cardTitle'>
-                      <p>Full Stack Fitness Tracker</p>
-                    </div>
-                    <div className='cardIcons d-flex'>
-                      <i className="bi bi-github"></i>
-                      <i className="bi bi-github"></i>
-                    </div>
-                  </div>
-                  <div className='cardStack d-flex border-bottom'>
-                    <p className='badge bg-primary'>React</p>
-                  </div>
-                  <div className='cardInfo'>
-                    <p>asihdbadjipsbajo;dsjsabkasnkaslndojlasndjoasbnuodasuobsoujabs</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div className="card" >
-                <img className="card-img-top" src="..." alt="Card cap"/>
-                <div className="card-body">
-                  <div className="cardInfo d-flex justify-content-between">
-                    <div className='cardTitle'>
-                      <p>Full Stack Expense Tracker</p>
-                    </div>
-                    <div className='cardIcons d-flex'>
-                      <i className="bi bi-github"></i>
-                      <i className="bi bi-github"></i>
-                    </div>
-                  </div>
-                  <div className='cardStack d-flex border-bottom'>
-                    <p className='badge bg-primary'>React</p>
-                  </div>
-                  <div className='cardInfo'>
-                    <p>asihdbadjipsbajo;dsjsabkasnkaslndojlasndjoasbnuodasuobsoujabs</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div className="card" >
-                <img className="card-img-top" src="..." alt="Card cap"/>
-                <div className="card-body">
-                  <div className="cardInfo d-flex justify-content-between">
-                    <div className='cardTitle'>
-                      <p>Linktree Clone</p>
-                    </div>
-                    <div className='cardIcons d-flex'>
-                      <i className="bi bi-github"></i>
-                      <i className="bi bi-github"></i>
-                    </div>
-                  </div>
-                  <div className='cardStack d-flex border-bottom'>
-                    <p className='badge bg-primary'>React</p>
-                  </div>
-                  <div className='cardInfo'>
-                    <p>asihdbadjipsbajo;dsjsabkasnkaslndojlasndjoasbnuodasuobsoujabs</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div className="card" >
+              <div className="card cardcontainer text-white">
                 <img className="card-img-top" src={Studio} alt="Card cap"/>
                 <div className="card-body">
                   <div className="cardInfo d-flex justify-content-between">
@@ -224,12 +135,111 @@ export default function Home() {
                       <p>Architecture Portfolio</p>
                     </div>
                     <div className='cardIcons d-flex'>
-                      <i className="bi bi-github"></i>
+                      <a href="https://glowing-dragon-e00f5e.netlify.app" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right me-2"></i></a>
+                      <a href="https://github.com/CarlosMurilloGH/architecture-portfolio" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
+                    </div>
+                  </div>
+                  <div className='cardStack d-flex border-bottom'>
+                    <p className='badge bg-primary me-2'>React</p>
+                    <p className='badge bg-primary me-2'>Material UI</p>
+                    <p className='badge bg-primary'>Firebase</p>
+                  </div>
+                  <div className='cardInfo'>
+                    <p>Minimalistic masonry gallery website for an architecture studio</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div className="card cardcontainer text-white">
+                <img className="card-img-top" src={Linktree} alt="Card cap"/>
+                <div className="card-body">
+                  <div className="cardInfo d-flex justify-content-between">
+                    <div className='cardTitle'>
+                      <p>Linktree Clone</p>
+                    </div>
+                    <div className='cardIcons d-flex'>
+                      <a href="https://linktreeclone-cm.netlify.app" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right me-2"></i></a>
+                      <a href="https://github.com/CarlosMurilloGH/linktreeclone" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
+                    </div>
+                  </div>
+                  <div className='cardStack d-flex border-bottom'>
+                    <p className='badge bg-primary me-2'>React</p>
+                    <p className='badge bg-primary me-2'>CSS Modules</p>
+                    <p className='badge bg-primary'>Firebase</p>
+                  </div>
+                  <div className='cardInfo'>
+                    <p>Linktree landing redesign and manage user's links and profiles</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div className="card cardcontainer text-white">
+                <img className="card-img-top" src="..." alt="Card cap"/>
+                <div className="card-body">
+                  <div className="cardInfo d-flex justify-content-between">
+                    <div className='cardTitle'>
+                      <p>FullStack Fitness</p>
+                    </div>
+                    <div className='cardIcons d-flex'>
+                      <i className="bi bi-box-arrow-up-right me-2"></i>
                       <i className="bi bi-github"></i>
                     </div>
                   </div>
                   <div className='cardStack d-flex border-bottom'>
-                    <p className='badge bg-primary'>React</p>
+                    <p className='badge bg-primary me-2'>React</p>
+                    <p className='badge bg-primary'>Firebase</p>
+                  </div>
+                  <div className='cardInfo'>
+                    <p>asihdbadjipsbajo;dsjsabkasnkaslndojlasndjoasbnuodasuobsoujabs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div className="card cardcontainer text-white">
+                <img className="card-img-top" src="..." alt="Card cap"/>
+                <div className="card-body">
+                  <div className="cardInfo d-flex justify-content-between">
+                    <div className='cardTitle'>
+                      <p>FullStack Expense Tracker</p>
+                    </div>
+                    <div className='cardIcons d-flex'>
+                      <i className="bi bi-box-arrow-up-right me-2"></i>
+                      <i className="bi bi-github"></i>
+                    </div>
+                  </div>
+                  <div className='cardStack d-flex border-bottom'>
+                    <p className='badge bg-primary me-2'>React</p>
+                    <p className='badge bg-primary'>Firebase</p>
+                  </div>
+                  <div className='cardInfo'>
+                    <p>asihdbadjipsbajo;dsjsabkasnkaslndojlasndjoasbnuodasuobsoujabs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div className="card cardcontainer text-white">
+                <img className="card-img-top" src="..." alt="Card cap"/>
+                <div className="card-body">
+                  <div className="cardInfo d-flex justify-content-between">
+                    <div className='cardTitle'>
+                      <p>Gatsby website</p>
+                    </div>
+                    <div className='cardIcons d-flex'>
+                      <i className="bi bi-box-arrow-up-right me-2"></i>
+                      <i className="bi bi-github"></i>
+                    </div>
+                  </div>
+                  <div className='cardStack d-flex border-bottom'>
+                    <p className='badge bg-primary me-2'>React</p>
+                    <p className='badge bg-primary'>Firebase</p>
                   </div>
                   <div className='cardInfo'>
                     <p>asihdbadjipsbajo;dsjsabkasnkaslndojlasndjoasbnuodasuobsoujabs</p>
