@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className='HomeContainer'>
       <div className='HeroColorContainer py-5'>
-        <div className="HeroContainer container d-flex py-5">
+        <div className="HeroContainer container d-xl-flex d-md-block py-5">
           <div className='HeroInfo pt-5'>
             <span className='text-primary fs-4 fw-bold'>Hey there!, I'm</span>
             <h1><span className='display-2 fw-bolder text-white'>Carlos Murillo.</span>
@@ -44,20 +44,21 @@ export default function Home() {
           <h2 className='display-5 fw-bolder text-white'>Skills</h2>
         </div>
         
-        <div class="container">
-          <div class="row">
-            <div class="col text-white">
+        <div className="container">
+          <div className=" d-lg-flex d-sm-block px-sm-3">
+            <div className="col text-white">
               <h2>Frontend</h2>
               <p>HTML, CSS, JS</p>
               <p>Reactjs</p>
               <p>React-Native</p>
+              <p>Gatsby</p>
               <p>Bootstrap</p>
               <p>Material UI</p>
               <p>Tailwind</p>
               <p>Styled components</p>
             </div>
 
-            <div class="col text-white">              
+            <div className="col text-white">              
               <h2>Backend</h2>
               <p>PHP</p>
               <p>Nodejs</p>
@@ -65,7 +66,7 @@ export default function Home() {
               <p>Express</p>
             </div>
 
-            <div class="col text-white">
+            <div className="col text-white">
               <h2>Platforms</h2>
               <p>Wordpress</p>
               <p>Plesk</p>
@@ -78,7 +79,7 @@ export default function Home() {
               <p>Github</p>
             </div>
 
-            <div class="col text-white">
+            <div className="col text-white">
               <h2>Tools</h2>
               <p>Figma</p>
               <p>Premiere Pro</p>
@@ -99,9 +100,9 @@ export default function Home() {
         </div>
 
         <div className="container py-5">
-          <div class="row row-cols-3 gy-4">
+          <div className="row row-cols-lg-3 row-cols-md-2 row-cols-xs-1 gy-4">
 
-          <div class="col">
+          <div className="col">
               <div className="card cardcontainer text-white" >
                 <img className="card-img-top" src={Inbokzer} alt="Card cap"/>
                 <div className="card-body">
@@ -114,10 +115,10 @@ export default function Home() {
                       <a href="https://github.com/CarlosMurilloGH/alphacarrito" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
                     </div>
                   </div>
-                  <div className='cardStack d-flex border-bottom'>
-                    <p className='badge bg-primary me-2'>React</p>
-                    <p className='badge bg-primary me-2'>CSS3</p>
-                    <p className='badge bg-primary'>Firebase</p>
+                  <div className='cardStack d-flex border-bottom row row-cols-auto'>
+                    <p className='badge bg-primary col me-2'>React</p>
+                    <p className='badge bg-primary col me-2'>CSS3</p>
+                    <p className='badge bg-primary col'>Firebase</p>
                   </div>
                   <div className='cardInfo'>
                     <p>Ecommerce platform for small business using WhatsApp API</p>
@@ -126,7 +127,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div class="col">
+            <div className="col">
               <div className="card cardcontainer text-white">
                 <img className="card-img-top" src={Studio} alt="Card cap"/>
                 <div className="card-body">
@@ -139,7 +140,7 @@ export default function Home() {
                       <a href="https://github.com/CarlosMurilloGH/architecture-portfolio" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
                     </div>
                   </div>
-                  <div className='cardStack d-flex border-bottom'>
+                  <div className='cardStack d-flex border-bottom row row-cols-auto'>
                     <p className='badge bg-primary me-2'>React</p>
                     <p className='badge bg-primary me-2'>Material UI</p>
                     <p className='badge bg-primary'>Firebase</p>
@@ -151,7 +152,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div class="col">
+            <div className="col">
               <div className="card cardcontainer text-white">
                 <img className="card-img-top" src={Linktree} alt="Card cap"/>
                 <div className="card-body">
@@ -164,7 +165,7 @@ export default function Home() {
                       <a href="https://github.com/CarlosMurilloGH/linktreeclone" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
                     </div>
                   </div>
-                  <div className='cardStack d-flex border-bottom'>
+                  <div className='cardStack d-flex border-bottom row row-cols-auto'>
                     <p className='badge bg-primary me-2'>React</p>
                     <p className='badge bg-primary me-2'>CSS Modules</p>
                     <p className='badge bg-primary'>Firebase</p>
@@ -176,22 +177,25 @@ export default function Home() {
               </div>
             </div>
 
-            <div class="col">
+            <div className="col">
               <div className="card cardcontainer text-white">
-                <img className="card-img-top" src="..." alt="Card cap"/>
+                <img className="card-img-top" src={Linktree} alt="Card cap"/>
                 <div className="card-body">
                   <div className="cardInfo d-flex justify-content-between">
                     <div className='cardTitle'>
-                      <p>FullStack Fitness</p>
+                      <p>FullStack Fitness Tracker</p>
                     </div>
                     <div className='cardIcons d-flex'>
                       <i className="bi bi-box-arrow-up-right me-2"></i>
                       <i className="bi bi-github"></i>
                     </div>
                   </div>
-                  <div className='cardStack d-flex border-bottom'>
-                    <p className='badge bg-primary me-2'>React</p>
-                    <p className='badge bg-primary'>Firebase</p>
+                  <div className='cardStack d-flex border-bottom row row-cols-auto'>
+                    <p className='badge bg-primary me-2 '>React</p>
+                    <p className='badge bg-primary me-2 '>MongoDB</p>
+                    <p className='badge bg-primary me-2 '>Express</p>
+                    <p className='badge bg-primary me-2 '>NodeJS</p>
+                    <p className='badge bg-primary '>TailwindCSS</p>
                   </div>
                   <div className='cardInfo'>
                     <p>asihdbadjipsbajo;dsjsabkasnkaslndojlasndjoasbnuodasuobsoujabs</p>
@@ -200,9 +204,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div class="col">
+            <div className="col">
               <div className="card cardcontainer text-white">
-                <img className="card-img-top" src="..." alt="Card cap"/>
+                <img className="card-img-top" src={Linktree} alt="Card cap"/>
                 <div className="card-body">
                   <div className="cardInfo d-flex justify-content-between">
                     <div className='cardTitle'>
@@ -213,7 +217,7 @@ export default function Home() {
                       <i className="bi bi-github"></i>
                     </div>
                   </div>
-                  <div className='cardStack d-flex border-bottom'>
+                  <div className='cardStack d-flex border-bottom row row-cols-auto'>
                     <p className='badge bg-primary me-2'>React</p>
                     <p className='badge bg-primary'>Firebase</p>
                   </div>
@@ -224,10 +228,10 @@ export default function Home() {
               </div>
             </div>
 
-            <div class="col">
+            <div className="col">
               <div className="card cardcontainer text-white">
-                <img className="card-img-top" src="..." alt="Card cap"/>
-                <div className="card-body">
+                <img className="card-img-top" src={Linktree} alt="Card cap"/>
+                <div className="card-body ">
                   <div className="cardInfo d-flex justify-content-between">
                     <div className='cardTitle'>
                       <p>Gatsby website</p>
@@ -237,7 +241,7 @@ export default function Home() {
                       <i className="bi bi-github"></i>
                     </div>
                   </div>
-                  <div className='cardStack d-flex border-bottom'>
+                  <div className='cardStack d-flex border-bottom row row-cols-auto'>
                     <p className='badge bg-primary me-2'>React</p>
                     <p className='badge bg-primary'>Firebase</p>
                   </div>
