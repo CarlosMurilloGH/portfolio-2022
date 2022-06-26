@@ -4,6 +4,8 @@ import "./Home.css";
 import Inbokzer from "../../media/inbokzer.png";
 import Studio from "../../media/720studio.png";
 import Linktree from "../../media/linktreeclone.png";
+import Cripto from "../../media/criptotracker.png";
+
 
 
 export default function Home() {
@@ -206,23 +208,23 @@ export default function Home() {
 
             <div className="col">
               <div className="card cardcontainer text-white">
-                <img className="card-img-top" src={Linktree} alt="Card cap"/>
+                <img className="card-img-top" src={Cripto} alt="Card cap"/>
                 <div className="card-body">
                   <div className="cardInfo d-flex justify-content-between">
                     <div className='cardTitle'>
-                      <p>FullStack Expense Tracker</p>
+                      <p>Cripto Currency Tracker</p>
                     </div>
                     <div className='cardIcons d-flex'>
-                      <i className="bi bi-box-arrow-up-right me-2"></i>
-                      <i className="bi bi-github"></i>
+                    <a href="https://criptocurrencytracker-cm.netlify.app" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right me-2"></i></a>
+                    <a href="https://github.com/CarlosMurilloGH/cryptocurrencytracker" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
                     </div>
                   </div>
                   <div className='cardStack d-flex border-bottom row row-cols-auto'>
                     <p className='badge bg-primary me-2'>React</p>
-                    <p className='badge bg-primary'>Firebase</p>
+                    <p className='badge bg-primary'>API</p>
                   </div>
                   <div className='cardInfo'>
-                    <p>asihdbadjipsbajo;dsjsabkasnkaslndojlasndjoasbnuodasuobsoujabs</p>
+                    <p>Real time cripto currency tracker with live search using coingecko's API</p>
                   </div>
                 </div>
               </div>
