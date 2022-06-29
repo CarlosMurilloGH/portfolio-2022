@@ -5,7 +5,7 @@ import Inbokzer from "../../media/inbokzer.png";
 import Studio from "../../media/720studio.png";
 import Linktree from "../../media/linktreeclone.png";
 import Cripto from "../../media/criptotracker.png";
-
+import Fitness from "../../media/fitnesstracker.png";
 
 
 export default function Home() {
@@ -181,7 +181,7 @@ export default function Home() {
 
             <div className="col">
               <div className="card cardcontainer text-white">
-                <img className="card-img-top" src={Linktree} alt="Card cap"/>
+                <img className="card-img-top" src={Fitness} alt="Card cap"/>
                 <div className="card-body">
                   <div className="cardInfo d-flex justify-content-between">
                     <div className='cardTitle'>
@@ -200,7 +200,7 @@ export default function Home() {
                     <p className='badge bg-primary '>TailwindCSS</p>
                   </div>
                   <div className='cardInfo'>
-                    <p>asihdbadjipsbajo;dsjsabkasnkaslndojlasndjoasbnuodasuobsoujabs</p>
+                    <p>Fitness website where you can track your body measurements</p>
                   </div>
                 </div>
               </div>
@@ -236,7 +236,7 @@ export default function Home() {
                 <div className="card-body ">
                   <div className="cardInfo d-flex justify-content-between">
                     <div className='cardTitle'>
-                      <p>Gatsby website</p>
+                      <p>Soap Website</p>
                     </div>
                     <div className='cardIcons d-flex'>
                       <i className="bi bi-box-arrow-up-right me-2"></i>
@@ -244,11 +244,11 @@ export default function Home() {
                     </div>
                   </div>
                   <div className='cardStack d-flex border-bottom row row-cols-auto'>
-                    <p className='badge bg-primary me-2'>React</p>
-                    <p className='badge bg-primary'>Firebase</p>
+                    <p className='badge bg-primary me-2'>Gatsby</p>
+                    <p className='badge bg-primary'>Netlify CMS</p>
                   </div>
                   <div className='cardInfo'>
-                    <p>asihdbadjipsbajo;dsjsabkasnkaslndojlasndjoasbnuodasuobsoujabs</p>
+                    <p>Website made with gatsby and connected with netlify cms to manage the content.</p>
                   </div>
                 </div>
               </div>
@@ -258,6 +258,30 @@ export default function Home() {
         </div>
 
       </div>
+
+      <div className="ContactContainer py-5">
+        <div className="container">
+          <h2 className='display-5 fw-bolder text-white'>Contact me</h2>
+        </div>
+        
+        <div>
+        <form>
+          <div className="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" className="form-control" placeholder="Enter email" />
+            <small className="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <button type="submit" className="btn btn-primary">Submit</button>
+        </form>
+        </div>
+      </div>
+
 
 
     </div>
