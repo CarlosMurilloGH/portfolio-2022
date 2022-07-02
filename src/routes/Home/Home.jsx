@@ -6,6 +6,8 @@ import Studio from "../../media/720studio.png";
 import Linktree from "../../media/linktreeclone.png";
 import Cripto from "../../media/criptotracker.png";
 import Fitness from "../../media/fitnesstracker.png";
+import Gatsby from "../../media/Gatsby-website.png";
+
 
 
 export default function Home() {
@@ -77,7 +79,7 @@ export default function Home() {
               <p>Heroku</p>
               <p>MongoDB</p>
               <p>Google Analytics</p>
-              <p>Maikchimp</p>
+              <p>Mailchimp</p>
               <p>Github</p>
             </div>
 
@@ -88,7 +90,6 @@ export default function Home() {
               <p>After Effects</p>
               <p>Google Analytics</p>
               <p>Postman</p>
-              <p>Plesk</p>
             </div>
 
           </div>
@@ -188,8 +189,8 @@ export default function Home() {
                       <p>FullStack Fitness Tracker</p>
                     </div>
                     <div className='cardIcons d-flex'>
-                      <i className="bi bi-box-arrow-up-right me-2"></i>
-                      <i className="bi bi-github"></i>
+                      <a href="https://fitness-trackercm.netlify.app" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right me-2"></i></a>
+                      <a href="https://github.com/CarlosMurilloGH/fitness-tracker" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
                     </div>
                   </div>
                   <div className='cardStack d-flex border-bottom row row-cols-auto'>
@@ -201,6 +202,31 @@ export default function Home() {
                   </div>
                   <div className='cardInfo'>
                     <p>Fitness website where you can track your body measurements</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card cardcontainer text-white">
+                <img className="card-img-top" src={Gatsby} alt="Card cap"/>
+                <div className="card-body ">
+                  <div className="cardInfo d-flex justify-content-between">
+                    <div className='cardTitle'>
+                      <p>Soap Website</p>
+                    </div>
+                    <div className='cardIcons d-flex'>
+                      <a href="https://soap-website.netlify.app" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right me-2"></i></a>
+                      <a href="https://github.com/CarlosMurilloGH/Soap-website" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
+                    </div>
+                  </div>
+                  <div className='cardStack d-flex border-bottom row row-cols-auto'>
+                    <p className='badge bg-primary me-2'>Gatsby</p>
+                    <p className='badge bg-primary me-2'>CSS</p>
+                    <p className='badge bg-primary'>Contentful CMS</p>
+                  </div>
+                  <div className='cardInfo'>
+                    <p>Website made with gatsby and connected with contentful cms to manage the content.</p>
                   </div>
                 </div>
               </div>
@@ -230,30 +256,6 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col">
-              <div className="card cardcontainer text-white">
-                <img className="card-img-top" src={Linktree} alt="Card cap"/>
-                <div className="card-body ">
-                  <div className="cardInfo d-flex justify-content-between">
-                    <div className='cardTitle'>
-                      <p>Soap Website</p>
-                    </div>
-                    <div className='cardIcons d-flex'>
-                      <i className="bi bi-box-arrow-up-right me-2"></i>
-                      <i className="bi bi-github"></i>
-                    </div>
-                  </div>
-                  <div className='cardStack d-flex border-bottom row row-cols-auto'>
-                    <p className='badge bg-primary me-2'>Gatsby</p>
-                    <p className='badge bg-primary'>Netlify CMS</p>
-                  </div>
-                  <div className='cardInfo'>
-                    <p>Website made with gatsby and connected with netlify cms to manage the content.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
 
@@ -264,24 +266,22 @@ export default function Home() {
           <h2 className='display-5 fw-bolder text-white'>Contact me</h2>
         </div>
         
-        <div>
-        <form>
-          <div className="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" className="form-control" placeholder="Enter email" />
-            <small className="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
+        <div className="w-50 mx-auto py-3">
+          <form>
+            <div className="form-group">
+              <label>Email address</label>
+              <input type="email" className="form-control" placeholder="Enter email" />
+            </div>
 
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+            <div class="form-group">
+              <label>Example textarea</label>
+              <textarea class="form-control" rows="3" placeholder='Your message'></textarea>
+            </div>
 
-          <button type="submit" className="btn btn-primary">Submit</button>
-        </form>
+            <button type="submit" className="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
-
 
 
     </div>
