@@ -23,7 +23,7 @@ export default function Home() {
             < span className='display-2 fw-bolder text-white'>Full Stack developer</span>
             </h1>
           </div>
-          <div className='HeroImage mx-auto justify-content-center p-3 mb-5 rounded px-5 py-4'>
+          <div className='HeroImage mx-auto justify-content-center'>
             <img src={Hero} className="mx-auto d-block" alt="porfolio heroimage"/>
           </div>
         </div>
@@ -62,20 +62,18 @@ export default function Home() {
               <p>Plesk</p>
               <p>Cpanel</p>
               <p>Netlify</p>
+              <p>Contentful</p>
               <p>Heroku</p>
               <p>MongoDB</p>
-              <p>Google Analytics</p>
               <p>Mailchimp</p>
-              <p>Github</p>
             </div>
 
             <div className="col text-white">
               <h2>Tools</h2>
               <p>Figma</p>
+              <p>Google Analytics</p>
               <p>Premiere Pro</p>
               <p>After Effects</p>
-              <p>Google Analytics</p>
-              <p>Postman</p>
             </div>
 
           </div>
