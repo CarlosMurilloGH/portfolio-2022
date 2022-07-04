@@ -264,9 +264,9 @@ export default function Home() {
               <input type="email" className="form-control my-2" placeholder="Enter email" />
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <label className='text-white'>Example textarea</label>
-              <textarea class="form-control my-2" rows="3" placeholder='Your message'></textarea>
+              <textarea className="form-control my-2" rows="3" placeholder='Your message'></textarea>
             </div>
 
             <button type="submit" className="btn btn-purple my-2">Submit</button>
