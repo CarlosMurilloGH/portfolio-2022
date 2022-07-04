@@ -1,19 +1,44 @@
 .HomeContainer{
+    background-color: #16161a;
+}
+
+.HeroImage img{
+    max-width: 350px;
+}
+
+.purpletext{
+    color:#7f5af0;
+}
+
+.SkillsContainer{
     background-color: #242629;
 }
 
-.HeroForm{
-    background-color: #16161A;
+.ExperienceContainer{
+    background-color: #16161a;
 }
-
-.SkillContainer{
-    background-color: #242629;
-}
-
 .cardcontainer{
-    background-color: #16161A;
+    background-color: #242629;
+}
+
+.purplebadge{
+    background-color: #7f5af0;
 }
 
 .cardIcons a{
+    color:white;
+}
+
+.ContactContainer{
+    background-color: #242629;
+}
+
+.btn-purple{
+    background-color: #7f5af0;
+    color:white;
+}
+
+.btn-purple:hover{
+    background-color: #7f5af0;
     color:white;
 }
