@@ -250,25 +250,19 @@ export default function Home() {
           <h2 className='display-5 fw-bolder text-white'>Contact me</h2>
         </div>
         
-        <div className="w-50 mx-auto py-5">
-          <form>
-            <div className="form-group">
-              <label className='text-white'>Name</label>
-              <input type="text" className="form-control my-2" placeholder="Name" />
-            </div>
-
-            <div className="form-group">
-              <label className='text-white'>Email address</label>
-              <input type="email" className="form-control my-2" placeholder="Enter email" />
-            </div>
-
-            <div className="form-group">
-              <label className='text-white'>Example textarea</label>
-              <textarea className="form-control my-2" rows="3" placeholder='Your message'></textarea>
-            </div>
-
-            <button type="submit" className="btn btn-purple my-2">Submit</button>
-          </form>
+        <div className="w-75 mx-auto py-5 d-xl-flex d-lg-block justify-content-xl-around justify-content-lg-start">
+          <a href="mailto:carlosmurilloortecho@gmail.com" target="_blank" rel="noreferrer" className='text-white fs-5 fw-bold'>
+            <p>carlosmurilloortecho@gmail.com</p>
+          </a>
+          <a href="https://github.com/CarlosMurilloGH/" target="_blank" rel="noreferrer" className='text-white fs-5 fw-bold d-flex'>
+            <i className="bi bi-github"></i><p className='ms-1'>Github</p>
+          </a>
+          <a href="https://www.linkedin.com/in/carlos-murillo-ortecho/" target="_blank" rel="noreferrer" className='text-white fs-5 fw-bold d-flex'>
+            <i className="bi bi-linkedin"></i><p className='ms-1'>Linkedin</p>
+          </a>
+          <a href="behance.net/carlosmurillo3" target="_blank" rel="noreferrer" className='text-white fs-5 fw-bold d-flex'>
+            <i className="bi bi-behance"></i><p className='ms-1'>Behance</p>
+          </a>
         </div>
       </div>
 
