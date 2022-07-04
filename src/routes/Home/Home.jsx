@@ -87,7 +87,7 @@ export default function Home() {
         </div>
 
         <div className="container py-5">
-          <div className="row row-cols-lg-3 row-cols-md-2 row-cols-xs-1 gy-4">
+          <div className="row row-cols-lg-3 row-cols-md-2 row-cols-1 gy-4">
 
           <div className="col">
               <div className="card cardcontainer text-white" >
