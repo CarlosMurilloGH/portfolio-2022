@@ -250,7 +250,7 @@ export default function Home() {
           <h2 className='display-5 fw-bolder text-white'>Contact me</h2>
         </div>
         
-        <div className="w-75 mx-auto py-5 d-xl-flex d-lg-block justify-content-xl-around justify-content-lg-start">
+        <div className="container py-5 d-xl-flex d-lg-block justify-content-xl-between justify-content-lg-start">
           <a href="mailto:carlosmurilloortecho@gmail.com" target="_blank" rel="noreferrer" className='text-white fs-5 fw-bold'>
             <p>carlosmurilloortecho@gmail.com</p>
           </a>

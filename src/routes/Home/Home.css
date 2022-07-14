@@ -29,6 +29,16 @@
     background-color: #242629;
 }
 
+.cardInfo{
+    height: 4rem;
+}
+
+.cardInfo p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
 .purplebadge{
     background-color: #7f5af0;
 }
