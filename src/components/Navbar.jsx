@@ -4,7 +4,7 @@ import {Navbar, Nav, Container}from "react-bootstrap";
 export default function NavbarComponent() {
   return (
   <>
-    <Navbar className="navBg" bg="dark" expand="lg">
+    <Navbar className="navBg fixed-top" bg="dark" expand="lg" >
       <Container>
         <Navbar.Brand href="/" className="text-white">Carlos Murillo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
